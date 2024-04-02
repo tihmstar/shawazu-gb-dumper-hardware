@@ -5663,7 +5663,7 @@
 	)
 	(global_label "pico_CLK"
 		(shape input)
-		(at 68.58 72.39 0)
+		(at 73.66 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5673,7 +5673,7 @@
 		)
 		(uuid "a8870468-3de4-4de0-bdf0-5ff1c8baef55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.0923 72.39 0)
+			(at 85.1723 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +5993,7 @@
 	)
 	(global_label "pico_~{CS}"
 		(shape input)
-		(at 73.66 31.75 0)
+		(at 68.58 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6003,7 +6003,7 @@
 		)
 		(uuid "c29c509e-eb2f-4647-adb1-c81b128d03d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.0837 31.75 0)
+			(at 79.0037 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,7 +7018,7 @@
 				)
 			)
 		)
-		(property "Value" "TP_PICO_~{CS}"
+		(property "Value" "PICO_CLK"
 			(at 62.738 29.21 90)
 			(effects
 				(font
