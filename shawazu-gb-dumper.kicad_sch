@@ -3608,6 +3608,12 @@
 		(uuid "c7296422-5e94-47ad-a1eb-42c60039070f")
 	)
 	(junction
+		(at 233.68 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cddb07e9-9979-4872-9697-de8b054fca7d")
+	)
+	(junction
 		(at 139.7 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3699,6 +3705,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 151.13) (xy 238.76 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944eafaa-afb6-4fed-889b-a79eef3994d0")
+	)
+	(wire
+		(pts
 			(xy 66.04 31.75) (xy 69.85 31.75)
 		)
 		(stroke
@@ -3736,6 +3752,16 @@
 			(type default)
 		)
 		(uuid "bc9e00f3-3f27-42b2-adf2-f21907e3e5da")
+	)
+	(wire
+		(pts
+			(xy 228.6 151.13) (xy 233.68 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd4ba84-8485-4447-924f-2cd4a002e46c")
 	)
 	(wire
 		(pts
@@ -5091,7 +5117,7 @@
 	)
 	(global_label "PWR"
 		(shape input)
-		(at 228.6 151.13 180)
+		(at 220.98 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5101,7 +5127,7 @@
 		)
 		(uuid "6e03252e-385c-4d7d-bb1a-2d4b2365dfc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.6234 151.13 0)
+			(at 214.0034 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5865,7 @@
 	)
 	(global_label "~{RST}"
 		(shape input)
-		(at 236.22 151.13 0)
+		(at 238.76 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5849,7 +5875,7 @@
 		)
 		(uuid "b92621d7-1e72-4a2e-9ca0-e60d74780802")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.6523 151.13 0)
+			(at 245.1923 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,7 +7645,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 232.41 151.13 90)
+		(at 224.79 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7628,7 +7654,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e5dd4da-50dc-4b32-a7e8-35309ddbd61c")
 		(property "Reference" "R1"
-			(at 232.41 144.78 90)
+			(at 224.79 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +7662,7 @@
 			)
 		)
 		(property "Value" "10K Ω"
-			(at 232.41 147.32 90)
+			(at 224.79 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,7 +7670,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 232.41 152.908 90)
+			(at 224.79 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +7679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 151.13 0)
+			(at 224.79 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +7688,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 232.41 151.13 0)
+			(at 224.79 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10592,6 +10618,72 @@
 			(project "shawazu-gb-dumper"
 				(path "/97e0a329-8697-49bc-b4ba-9c706c6dd8be"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3e4380c-874d-4715-a5d7-1ca01caa626c")
+		(property "Reference" "TP4"
+			(at 234.95 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~{CS2}"
+			(at 234.696 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 238.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91f3daa2-f9ea-4fd3-9004-88bd45d038d7")
+		)
+		(instances
+			(project "shawazu-gb-dumper"
+				(path "/97e0a329-8697-49bc-b4ba-9c706c6dd8be"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
