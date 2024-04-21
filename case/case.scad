@@ -72,9 +72,9 @@ module bottom(x = 0, y = 0, z = 0){
             }
         }
 
+
         translate([0,0,0])
             cube([board_width+case_border*2,1,case_height]); //bottom
-
 
         translate([0,case_border*2+board_height-1,0]){
             difference(){
@@ -100,7 +100,7 @@ module top(x = 0, y = 0, z = 0){
             cube([board_width+case_border*2,board_height+case_border*2,2]);
 
             //power selector
-            translate([case_border,case_border+37-switch_cutout_height/2,-5])
+            translate([case_border+0.5,case_border+37-switch_cutout_height/2+2,-5])
                 cube([switch_cutout_width,switch_cutout_height,10]);
             
             //bootsel
@@ -113,7 +113,7 @@ module top(x = 0, y = 0, z = 0){
         /*
             Sidewalls
         */
-        translate([case_border-1,case_border+(board_height*(1-top_wall_factor)/2)+top_side_wall_offset,-top_walls]){
+        translate([1,case_border+(board_height*(1-top_wall_factor)/2)+top_side_wall_offset,-top_walls]){
             color("green")
             cube([1,board_height*top_wall_factor,case_border+top_walls]); //left                
             translate([0.25,board_height*top_wall_factor-(1-indent_factor)*board_height*top_wall_factor/2,1]){
@@ -124,7 +124,7 @@ module top(x = 0, y = 0, z = 0){
             }
         }
 
-        translate([board_width+case_border,case_border+(board_height*(1-top_wall_factor)/2)+top_side_wall_offset,-top_walls]){
+        translate([board_width+case_border-0.5,case_border+(board_height*(1-top_wall_factor)/2)+top_side_wall_offset,-top_walls]){
             color("green")
             cube([1,board_height*top_wall_factor,case_border+top_walls]); //right
             translate([0.75,board_height*top_wall_factor-(1-indent_factor)*board_height*top_wall_factor/2,1]){
@@ -134,11 +134,12 @@ module top(x = 0, y = 0, z = 0){
             }
         }
 
-        translate([case_border+(board_width*(1-top_wall_factor))/2,case_border/2,-top_walls])
+        color("grey")
+        translate([case_border+(board_width*(1-top_wall_factor))/2,1,-top_walls])
             cube([board_width*top_wall_factor,1,case_border+top_walls]); //bottom
 
         color("grey")
-        translate([case_border/2,board_height+case_border,-top_walls]){
+        translate([case_border/2,board_height+case_border-0.5,-top_walls]){
             difference(){
                 cube([board_width+case_border,1,case_border+top_walls]); //top
                 
