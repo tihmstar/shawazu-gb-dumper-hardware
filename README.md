@@ -5,6 +5,13 @@ This is an easy to solder DIY project.
 <img src="https://github.com/tihmstar/shawazu-gb-dumper-hardware/blob/master/images/front.jpg?raw=true" width="300" />
 <img src="https://github.com/tihmstar/shawazu-gb-dumper-hardware/blob/master/images/back.jpg?raw=true" width="300" />
 
+# 3D printed case
+A 3d printed case is available for rev 3 / rev 4 boards [here](https://github.com/tihmstar/shawazu-gb-dumper-hardware/tree/master/case).  
+**Note: The case does not fit rev2 boards!**
+
+<img src="https://github.com/tihmstar/shawazu-gb-dumper-hardware/blob/master/images/case_lid.jpg?raw=true" width="300" />
+<img src="https://github.com/tihmstar/shawazu-gb-dumper-hardware/blob/master/images/case_open.jpg?raw=true" width="300" />
+
 
 # Voltage switch 
 GB / GBC cartridges run on 5V.  
