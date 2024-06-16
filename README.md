@@ -28,8 +28,8 @@ For the connector, just pick one from AliExpress. They should be pretty much all
 
 # Assembly
 
-A video tutorial on how to assembly the board is available here:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dES8QW8xg44?si=9sVKwl2QdlvckcLd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+A video tutorial on how to assembly the board is available here:  
+[![Buildinstructions](https://img.youtube.com/vi/dES8QW8xg44/0.jpg)](https://www.youtube.com/watch?v=dES8QW8xg44)
 
 In General:  
 1) **Flash and test the pico!!!!!**
