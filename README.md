@@ -2,6 +2,10 @@
 Custom Shawazu PCB for dumping GB / GBC / GBA games and savegames.  
 This is an easy to solder DIY project.
 
+<img src="https://github.com/tihmstar/shawazu-gb-dumper-hardware/blob/master/images/front.jpg?raw=true" width="300" />
+<img src="https://github.com/tihmstar/shawazu-gb-dumper-hardware/blob/master/images/back.jpg?raw=true" width="300" />
+
+
 # Voltage switch 
 GB / GBC cartridges run on 5V.  
 GBA cartridges run on 3.3V.  
